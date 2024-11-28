@@ -3,6 +3,7 @@
 import Image from "next/image";
 import googleLogo from "@/public/google.png";
 import githubLogo from "@/public/github.png";
+import { useRouter } from 'next/navigation';
 import { signIn } from "next-auth/react";
 
 export function GoogleSignInButton() {
@@ -38,8 +39,9 @@ export function GithubSignInButton() {
 }
 
 export function CredentialsSignInButton() {
+  const router = useRouter();
   const handleClick = () => {
-    signIn();
+    router.push("/register");
   };
 
   return (

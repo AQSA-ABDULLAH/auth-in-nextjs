@@ -742,6 +742,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./app/providers.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/providers.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/providers.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "NextAuthProvider": {
+        "id": "(sc_client)/./app/providers.tsx",
+        "name": "NextAuthProvider",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./public/github.png": {
       "*": {
         "id": "(sc_client)/./public/github.png",
@@ -830,32 +856,6 @@ self.__RSC_MANIFEST={
       "GoogleSignInButton": {
         "id": "(sc_client)/./components/authButtons.tsx",
         "name": "GoogleSignInButton",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./components/credentialsForm.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/credentialsForm.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./components/credentialsForm.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "CredentialsForm": {
-        "id": "(sc_client)/./components/credentialsForm.tsx",
-        "name": "CredentialsForm",
         "chunks": [
           "app/page:static/chunks/app/page.js"
         ],
@@ -1039,7 +1039,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "*",
         "chunks": [
-          "app/timeline/page:static/chunks/app/timeline/page.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
@@ -1047,7 +1047,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "",
         "chunks": [
-          "app/timeline/page:static/chunks/app/timeline/page.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
@@ -1055,7 +1055,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "suspense",
         "chunks": [
-          "app/timeline/page:static/chunks/app/timeline/page.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
@@ -1063,59 +1063,59 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "NoSSR",
         "chunks": [
-          "app/timeline/page:static/chunks/app/timeline/page.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       }
     },
-    "(app-client)/./app/providers.tsx": {
+    "(app-client)/./app/register/page.tsx": {
       "*": {
-        "id": "(sc_client)/./app/providers.tsx",
+        "id": "(sc_client)/./app/register/page.tsx",
         "name": "*",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/register/page:static/chunks/app/register/page.js"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./app/providers.tsx",
+        "id": "(sc_client)/./app/register/page.tsx",
         "name": "",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "NextAuthProvider": {
-        "id": "(sc_client)/./app/providers.tsx",
-        "name": "NextAuthProvider",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./components/twitterNavbar.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/twitterNavbar.tsx",
-        "name": "*",
-        "chunks": [
-          "app/timeline/layout:static/chunks/app/timeline/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./components/twitterNavbar.tsx",
-        "name": "",
-        "chunks": [
-          "app/timeline/layout:static/chunks/app/timeline/layout.js"
+          "app/register/page:static/chunks/app/register/page.js"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./components/twitterNavbar.tsx",
+        "id": "(sc_client)/./app/register/page.tsx",
         "name": "default",
         "chunks": [
-          "app/timeline/layout:static/chunks/app/timeline/layout.js"
+          "app/register/page:static/chunks/app/register/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/login/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/login/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/login/page:static/chunks/app/login/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/login/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/login/page:static/chunks/app/login/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/login/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/login/page:static/chunks/app/login/page.js"
         ],
         "async": false
       }
@@ -2824,6 +2824,44 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "D:\\Office Work\\Tasks\\nextjs-auth\\app\\globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "D:\\Office Work\\Tasks\\nextjs-auth\\app\\providers.tsx": {
+      "id": "(app-client)/./app/providers.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "D:\\Office Work\\Tasks\\nextjs-auth\\app\\providers.tsx#": {
+      "id": "(app-client)/./app/providers.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "D:\\Office Work\\Tasks\\nextjs-auth\\app\\providers.tsx#NextAuthProvider": {
+      "id": "(app-client)/./app/providers.tsx",
+      "name": "NextAuthProvider",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
     "D:\\Office Work\\Tasks\\nextjs-auth\\public\\github.png": {
       "id": "(app-client)/./public/github.png",
       "name": "*",
@@ -2907,30 +2945,6 @@ self.__RSC_MANIFEST={
     "D:\\Office Work\\Tasks\\nextjs-auth\\components\\authButtons.tsx#GoogleSignInButton": {
       "id": "(app-client)/./components/authButtons.tsx",
       "name": "GoogleSignInButton",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\Office Work\\Tasks\\nextjs-auth\\components\\credentialsForm.tsx": {
-      "id": "(app-client)/./components/credentialsForm.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\Office Work\\Tasks\\nextjs-auth\\components\\credentialsForm.tsx#": {
-      "id": "(app-client)/./components/credentialsForm.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\Office Work\\Tasks\\nextjs-auth\\components\\credentialsForm.tsx#CredentialsForm": {
-      "id": "(app-client)/./components/credentialsForm.tsx",
-      "name": "CredentialsForm",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
@@ -3276,7 +3290,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "*",
       "chunks": [
-        "app/timeline/page:static/chunks/app/timeline/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -3284,7 +3298,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "*",
       "chunks": [
-        "app/timeline/page:static/chunks/app/timeline/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -3292,7 +3306,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "",
       "chunks": [
-        "app/timeline/page:static/chunks/app/timeline/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -3300,7 +3314,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "",
       "chunks": [
-        "app/timeline/page:static/chunks/app/timeline/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -3308,7 +3322,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "suspense",
       "chunks": [
-        "app/timeline/page:static/chunks/app/timeline/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -3316,7 +3330,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "suspense",
       "chunks": [
-        "app/timeline/page:static/chunks/app/timeline/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -3324,7 +3338,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "NoSSR",
       "chunks": [
-        "app/timeline/page:static/chunks/app/timeline/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -3332,69 +3346,55 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "NoSSR",
       "chunks": [
-        "app/timeline/page:static/chunks/app/timeline/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "D:\\Office Work\\Tasks\\nextjs-auth\\app\\globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "D:\\Office Work\\Tasks\\nextjs-auth\\app\\providers.tsx": {
-      "id": "(app-client)/./app/providers.tsx",
+    "D:\\Office Work\\Tasks\\nextjs-auth\\app\\register\\page.tsx": {
+      "id": "(app-client)/./app/register/page.tsx",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/register/page:static/chunks/app/register/page.js"
       ],
       "async": false
     },
-    "D:\\Office Work\\Tasks\\nextjs-auth\\app\\providers.tsx#": {
-      "id": "(app-client)/./app/providers.tsx",
+    "D:\\Office Work\\Tasks\\nextjs-auth\\app\\register\\page.tsx#": {
+      "id": "(app-client)/./app/register/page.tsx",
       "name": "",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/register/page:static/chunks/app/register/page.js"
       ],
       "async": false
     },
-    "D:\\Office Work\\Tasks\\nextjs-auth\\app\\providers.tsx#NextAuthProvider": {
-      "id": "(app-client)/./app/providers.tsx",
-      "name": "NextAuthProvider",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "D:\\Office Work\\Tasks\\nextjs-auth\\components\\twitterNavbar.tsx": {
-      "id": "(app-client)/./components/twitterNavbar.tsx",
-      "name": "*",
-      "chunks": [
-        "app/timeline/layout:static/chunks/app/timeline/layout.js"
-      ],
-      "async": false
-    },
-    "D:\\Office Work\\Tasks\\nextjs-auth\\components\\twitterNavbar.tsx#": {
-      "id": "(app-client)/./components/twitterNavbar.tsx",
-      "name": "",
-      "chunks": [
-        "app/timeline/layout:static/chunks/app/timeline/layout.js"
-      ],
-      "async": false
-    },
-    "D:\\Office Work\\Tasks\\nextjs-auth\\components\\twitterNavbar.tsx#default": {
-      "id": "(app-client)/./components/twitterNavbar.tsx",
+    "D:\\Office Work\\Tasks\\nextjs-auth\\app\\register\\page.tsx#default": {
+      "id": "(app-client)/./app/register/page.tsx",
       "name": "default",
       "chunks": [
-        "app/timeline/layout:static/chunks/app/timeline/layout.js"
+        "app/register/page:static/chunks/app/register/page.js"
+      ],
+      "async": false
+    },
+    "D:\\Office Work\\Tasks\\nextjs-auth\\app\\login\\page.tsx": {
+      "id": "(app-client)/./app/login/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/login/page:static/chunks/app/login/page.js"
+      ],
+      "async": false
+    },
+    "D:\\Office Work\\Tasks\\nextjs-auth\\app\\login\\page.tsx#": {
+      "id": "(app-client)/./app/login/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/login/page:static/chunks/app/login/page.js"
+      ],
+      "async": false
+    },
+    "D:\\Office Work\\Tasks\\nextjs-auth\\app\\login\\page.tsx#default": {
+      "id": "(app-client)/./app/login/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/login/page:static/chunks/app/login/page.js"
       ],
       "async": false
     }

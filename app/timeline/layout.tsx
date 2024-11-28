@@ -1,5 +1,5 @@
 
-import TwitterNavbar from "@/components/twitterNavbar";
+import TwitterNavbar from "@/components/Navbar";
 
 export default async function Layout({ children }: { children: any }) {
   return (

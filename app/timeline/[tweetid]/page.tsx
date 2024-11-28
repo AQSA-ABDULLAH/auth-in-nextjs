@@ -1,4 +1,4 @@
-import Tweet from "@/components/tweet";
+
 import prisma from "@/lib/prisma";
 import { notFound } from "next/navigation";
 
@@ -19,5 +19,4 @@ export default async function Page({ params }: PageProps) {
 
   if (!tweet) return notFound();
 
-  return <Tweet tweet={tweet} isTweetPage />;
 }
