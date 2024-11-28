@@ -1039,7 +1039,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "*",
         "chunks": [
-          "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
+          "app/timeline/page:static/chunks/app/timeline/page.js"
         ],
         "async": false
       },
@@ -1047,7 +1047,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "",
         "chunks": [
-          "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
+          "app/timeline/page:static/chunks/app/timeline/page.js"
         ],
         "async": false
       },
@@ -1055,7 +1055,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "suspense",
         "chunks": [
-          "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
+          "app/timeline/page:static/chunks/app/timeline/page.js"
         ],
         "async": false
       },
@@ -1063,7 +1063,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "NoSSR",
         "chunks": [
-          "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
+          "app/timeline/page:static/chunks/app/timeline/page.js"
         ],
         "async": false
       }
@@ -1119,68 +1119,16 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
-    },
-    "(app-client)/./components/tweetActions.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/tweetActions.tsx",
-        "name": "*",
-        "chunks": [
-          "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./components/tweetActions.tsx",
-        "name": "",
-        "chunks": [
-          "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
-        ],
-        "async": false
-      },
-      "TweetActions": {
-        "id": "(sc_client)/./components/tweetActions.tsx",
-        "name": "TweetActions",
-        "chunks": [
-          "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [
-          "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "",
-        "chunks": [
-          "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
-        "chunks": [
-          "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
-        ],
-        "async": false
-      }
     }
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "D:\\nextjs-auth\\app\\layout": [
+    "D:\\Office Work\\Tasks\\nextjs-auth\\app\\layout": [
       "static/css/app/layout.css"
     ]
   },
   "clientModules": {
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -1188,7 +1136,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -1196,7 +1144,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -1204,7 +1152,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -1212,7 +1160,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#default": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -1220,7 +1168,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#default": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -1228,7 +1176,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#getServerActionDispatcher": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#getServerActionDispatcher": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "getServerActionDispatcher",
       "chunks": [
@@ -1236,7 +1184,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#getServerActionDispatcher": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#getServerActionDispatcher": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "getServerActionDispatcher",
       "chunks": [
@@ -1244,7 +1192,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -1252,7 +1200,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -1260,7 +1208,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#TODO-APP": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#TODO-APP": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "TODO-APP",
       "chunks": [
@@ -1268,7 +1216,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#TODO-APP": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#TODO-APP": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "TODO-APP",
       "chunks": [
@@ -1276,7 +1224,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#__NA": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#__NA": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "__NA",
       "chunks": [
@@ -1284,7 +1232,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#__NA": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#__NA": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "__NA",
       "chunks": [
@@ -1292,7 +1240,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#location": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#location": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "location",
       "chunks": [
@@ -1300,7 +1248,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#location": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#location": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "location",
       "chunks": [
@@ -1308,7 +1256,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#\"http": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#\"http": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "\"http",
       "chunks": [
@@ -1316,7 +1264,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#\"http": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#\"http": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "\"http",
       "chunks": [
@@ -1324,7 +1272,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#searchParams": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#searchParams": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "searchParams",
       "chunks": [
@@ -1332,7 +1280,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#searchParams": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#searchParams": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "searchParams",
       "chunks": [
@@ -1340,7 +1288,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#pathname": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#pathname": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "pathname",
       "chunks": [
@@ -1348,7 +1296,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#pathname": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#pathname": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "pathname",
       "chunks": [
@@ -1356,7 +1304,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#type": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#type": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "type",
       "chunks": [
@@ -1364,7 +1312,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#type": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#type": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "type",
       "chunks": [
@@ -1372,7 +1320,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#cache": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#cache": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "cache",
       "chunks": [
@@ -1380,7 +1328,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#cache": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#cache": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "cache",
       "chunks": [
@@ -1388,7 +1336,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#status": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#status": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "status",
       "chunks": [
@@ -1396,7 +1344,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#status": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#status": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "status",
       "chunks": [
@@ -1404,7 +1352,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#data": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#data": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "data",
       "chunks": [
@@ -1412,7 +1360,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#data": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#data": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "data",
       "chunks": [
@@ -1420,7 +1368,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#subTreeData": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#subTreeData": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "subTreeData",
       "chunks": [
@@ -1428,7 +1376,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#subTreeData": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#subTreeData": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "subTreeData",
       "chunks": [
@@ -1436,7 +1384,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#parallelRoutes": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#parallelRoutes": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "parallelRoutes",
       "chunks": [
@@ -1444,7 +1392,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#parallelRoutes": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#parallelRoutes": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "parallelRoutes",
       "chunks": [
@@ -1452,7 +1400,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#mutable": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#mutable": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "mutable",
       "chunks": [
@@ -1460,7 +1408,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#mutable": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#mutable": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "mutable",
       "chunks": [
@@ -1468,7 +1416,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#isExternalUrl": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#isExternalUrl": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "isExternalUrl",
       "chunks": [
@@ -1476,7 +1424,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#isExternalUrl": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#isExternalUrl": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "isExternalUrl",
       "chunks": [
@@ -1484,7 +1432,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#locationSearch": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#locationSearch": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "locationSearch",
       "chunks": [
@@ -1492,7 +1440,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#locationSearch": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#locationSearch": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "locationSearch",
       "chunks": [
@@ -1500,7 +1448,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#back": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#back": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "back",
       "chunks": [
@@ -1508,7 +1456,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#back": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#back": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "back",
       "chunks": [
@@ -1516,7 +1464,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#forward": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#forward": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "forward",
       "chunks": [
@@ -1524,7 +1472,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#forward": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#forward": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "forward",
       "chunks": [
@@ -1532,7 +1480,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#prefetch": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#prefetch": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "prefetch",
       "chunks": [
@@ -1540,7 +1488,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#prefetch": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#prefetch": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "prefetch",
       "chunks": [
@@ -1548,7 +1496,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#kind": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#kind": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "kind",
       "chunks": [
@@ -1556,7 +1504,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#kind": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#kind": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "kind",
       "chunks": [
@@ -1564,7 +1512,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#replace": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#replace": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "replace",
       "chunks": [
@@ -1572,7 +1520,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#replace": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#replace": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "replace",
       "chunks": [
@@ -1580,7 +1528,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#push": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#push": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "push",
       "chunks": [
@@ -1588,7 +1536,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#push": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#push": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "push",
       "chunks": [
@@ -1596,7 +1544,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#refresh": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#refresh": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "refresh",
       "chunks": [
@@ -1604,7 +1552,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#refresh": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#refresh": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "refresh",
       "chunks": [
@@ -1612,7 +1560,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#origin": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#origin": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "origin",
       "chunks": [
@@ -1620,7 +1568,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#origin": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#origin": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "origin",
       "chunks": [
@@ -1628,7 +1576,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#fastRefresh": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#fastRefresh": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "fastRefresh",
       "chunks": [
@@ -1636,7 +1584,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#fastRefresh": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#fastRefresh": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "fastRefresh",
       "chunks": [
@@ -1644,7 +1592,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#router": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#router": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "router",
       "chunks": [
@@ -1652,7 +1600,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#router": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#router": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "router",
       "chunks": [
@@ -1660,7 +1608,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#(eg": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#(eg": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "(eg",
       "chunks": [
@@ -1668,7 +1616,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#(eg": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#(eg": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "(eg",
       "chunks": [
@@ -1676,7 +1624,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#url": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#url": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "url",
       "chunks": [
@@ -1684,7 +1632,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#url": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#url": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "url",
       "chunks": [
@@ -1692,7 +1640,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#tree": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#tree": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "tree",
       "chunks": [
@@ -1700,7 +1648,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#tree": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#tree": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "tree",
       "chunks": [
@@ -1708,7 +1656,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#notFound": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#notFound": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "notFound",
       "chunks": [
@@ -1716,7 +1664,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#notFound": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#notFound": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "notFound",
       "chunks": [
@@ -1724,7 +1672,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#notFoundStyles": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#notFoundStyles": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "notFoundStyles",
       "chunks": [
@@ -1732,7 +1680,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#notFoundStyles": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#notFoundStyles": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "notFoundStyles",
       "chunks": [
@@ -1740,7 +1688,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#asNotFound": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#asNotFound": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "asNotFound",
       "chunks": [
@@ -1748,7 +1696,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#asNotFound": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#asNotFound": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "asNotFound",
       "chunks": [
@@ -1756,7 +1704,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#pushRef": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#pushRef": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "pushRef",
       "chunks": [
@@ -1764,7 +1712,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#pushRef": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#pushRef": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "pushRef",
       "chunks": [
@@ -1772,7 +1720,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#canonicalUrl": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#canonicalUrl": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "canonicalUrl",
       "chunks": [
@@ -1780,7 +1728,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#canonicalUrl": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#canonicalUrl": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "canonicalUrl",
       "chunks": [
@@ -1788,7 +1736,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#sync": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#sync": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "sync",
       "chunks": [
@@ -1796,7 +1744,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#sync": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#sync": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "sync",
       "chunks": [
@@ -1804,7 +1752,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#value": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "value",
       "chunks": [
@@ -1812,7 +1760,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#value": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "value",
       "chunks": [
@@ -1820,7 +1768,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#childNodes": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#childNodes": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "childNodes",
       "chunks": [
@@ -1828,7 +1776,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#childNodes": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#childNodes": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "childNodes",
       "chunks": [
@@ -1836,7 +1784,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#assetPrefix": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#assetPrefix": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "assetPrefix",
       "chunks": [
@@ -1844,7 +1792,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#assetPrefix": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#assetPrefix": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "assetPrefix",
       "chunks": [
@@ -1852,7 +1800,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#errorComponent": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#errorComponent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "errorComponent",
       "chunks": [
@@ -1860,7 +1808,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#errorComponent": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#errorComponent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "errorComponent",
       "chunks": [
@@ -1868,7 +1816,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -1876,7 +1824,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -1884,7 +1832,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -1892,7 +1840,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -1900,7 +1848,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#default": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -1908,7 +1856,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#default": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -1916,7 +1864,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundaryHandler",
       "chunks": [
@@ -1924,7 +1872,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundaryHandler",
       "chunks": [
@@ -1932,7 +1880,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundary": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -1940,7 +1888,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundary": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -1948,7 +1896,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#error": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#error": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "error",
       "chunks": [
@@ -1956,7 +1904,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#error": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#error": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "error",
       "chunks": [
@@ -1964,7 +1912,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#https": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#https": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "https",
       "chunks": [
@@ -1972,7 +1920,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#https": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#https": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "https",
       "chunks": [
@@ -1980,7 +1928,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#fontFamily": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#fontFamily": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontFamily",
       "chunks": [
@@ -1988,7 +1936,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#fontFamily": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#fontFamily": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontFamily",
       "chunks": [
@@ -1996,7 +1944,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#height": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#height": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "height",
       "chunks": [
@@ -2004,7 +1952,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#height": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#height": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "height",
       "chunks": [
@@ -2012,7 +1960,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#textAlign": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#textAlign": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "textAlign",
       "chunks": [
@@ -2020,7 +1968,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#textAlign": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#textAlign": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "textAlign",
       "chunks": [
@@ -2028,7 +1976,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#display": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#display": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "display",
       "chunks": [
@@ -2036,7 +1984,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#display": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#display": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "display",
       "chunks": [
@@ -2044,7 +1992,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#flexDirection": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#flexDirection": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "flexDirection",
       "chunks": [
@@ -2052,7 +2000,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#flexDirection": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#flexDirection": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "flexDirection",
       "chunks": [
@@ -2060,7 +2008,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#alignItems": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#alignItems": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "alignItems",
       "chunks": [
@@ -2068,7 +2016,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#alignItems": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#alignItems": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "alignItems",
       "chunks": [
@@ -2076,7 +2024,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#justifyContent": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#justifyContent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "justifyContent",
       "chunks": [
@@ -2084,7 +2032,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#justifyContent": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#justifyContent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "justifyContent",
       "chunks": [
@@ -2092,7 +2040,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#desc": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#desc": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "desc",
       "chunks": [
@@ -2100,7 +2048,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#desc": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#desc": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "desc",
       "chunks": [
@@ -2108,7 +2056,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#text": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#text": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "text",
       "chunks": [
@@ -2116,7 +2064,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#text": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#text": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "text",
       "chunks": [
@@ -2124,7 +2072,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#fontSize": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#fontSize": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontSize",
       "chunks": [
@@ -2132,7 +2080,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#fontSize": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#fontSize": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontSize",
       "chunks": [
@@ -2140,7 +2088,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#fontWeight": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#fontWeight": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontWeight",
       "chunks": [
@@ -2148,7 +2096,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#fontWeight": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#fontWeight": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontWeight",
       "chunks": [
@@ -2156,7 +2104,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#lineHeight": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#lineHeight": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "lineHeight",
       "chunks": [
@@ -2164,7 +2112,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#lineHeight": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#lineHeight": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "lineHeight",
       "chunks": [
@@ -2172,7 +2120,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#margin": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#margin": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "margin",
       "chunks": [
@@ -2180,7 +2128,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#margin": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#margin": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "margin",
       "chunks": [
@@ -2188,7 +2136,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#reset": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#reset": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "reset",
       "chunks": [
@@ -2196,7 +2144,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#reset": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#reset": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "reset",
       "chunks": [
@@ -2204,7 +2152,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#style": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#style": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "style",
       "chunks": [
@@ -2212,7 +2160,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#style": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#style": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "style",
       "chunks": [
@@ -2220,7 +2168,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#\"Digest": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#\"Digest": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "\"Digest",
       "chunks": [
@@ -2228,7 +2176,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#\"Digest": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#\"Digest": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "\"Digest",
       "chunks": [
@@ -2236,7 +2184,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#errorComponent": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#errorComponent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "errorComponent",
       "chunks": [
@@ -2244,7 +2192,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#errorComponent": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#errorComponent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "errorComponent",
       "chunks": [
@@ -2252,7 +2200,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#errorStyles": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#errorStyles": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "errorStyles",
       "chunks": [
@@ -2260,7 +2208,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#errorStyles": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#errorStyles": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "errorStyles",
       "chunks": [
@@ -2268,7 +2216,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#value": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "value",
       "chunks": [
@@ -2276,7 +2224,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#value": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "value",
       "chunks": [
@@ -2284,7 +2232,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -2292,7 +2240,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -2300,7 +2248,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -2308,7 +2256,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -2316,7 +2264,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#default": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -2324,7 +2272,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#default": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -2332,7 +2280,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectErrorBoundary",
       "chunks": [
@@ -2340,7 +2288,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectErrorBoundary",
       "chunks": [
@@ -2348,7 +2296,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectBoundary": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -2356,7 +2304,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectBoundary": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -2364,7 +2312,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#redirect": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#redirect": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "redirect",
       "chunks": [
@@ -2372,7 +2320,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#redirect": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#redirect": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "redirect",
       "chunks": [
@@ -2380,7 +2328,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#redirectType": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#redirectType": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "redirectType",
       "chunks": [
@@ -2388,7 +2336,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#redirectType": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#redirectType": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "redirectType",
       "chunks": [
@@ -2396,7 +2344,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#reset": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#reset": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "reset",
       "chunks": [
@@ -2404,7 +2352,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#reset": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#reset": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "reset",
       "chunks": [
@@ -2412,7 +2360,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#router": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#router": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "router",
       "chunks": [
@@ -2420,7 +2368,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#router": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#router": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "router",
       "chunks": [
@@ -2428,7 +2376,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#value": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "value",
       "chunks": [
@@ -2436,7 +2384,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#value": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "value",
       "chunks": [
@@ -2444,7 +2392,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -2452,7 +2400,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -2460,7 +2408,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -2468,7 +2416,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -2476,7 +2424,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#default": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -2484,7 +2432,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#default": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -2492,7 +2440,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -2500,7 +2448,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -2508,7 +2456,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -2516,7 +2464,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -2524,7 +2472,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#CacheStates": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -2532,7 +2480,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#CacheStates": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -2540,7 +2488,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#AppRouterContext": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -2548,7 +2496,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#AppRouterContext": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -2556,7 +2504,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -2564,7 +2512,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -2572,7 +2520,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -2580,7 +2528,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -2588,7 +2536,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#TemplateContext": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -2596,7 +2544,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#TemplateContext": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -2604,7 +2552,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -2612,7 +2560,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -2620,7 +2568,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -2628,7 +2576,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -2636,15 +2584,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "SearchParamsContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "SearchParamsContext",
       "chunks": [
@@ -2652,7 +2592,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#PathnameContext": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
+      "name": "SearchParamsContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -2660,7 +2608,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#PathnameContext": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -2668,7 +2616,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -2676,7 +2624,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -2684,7 +2632,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -2692,7 +2640,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -2700,15 +2648,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "ServerInsertedHTMLContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "ServerInsertedHTMLContext",
       "chunks": [
@@ -2716,7 +2656,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
+      "name": "ServerInsertedHTMLContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -2724,7 +2672,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -2732,7 +2680,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -2740,7 +2688,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -2748,7 +2696,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\layout-router.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -2756,7 +2704,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -2764,7 +2712,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\layout-router.js#default": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -2772,7 +2720,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#default": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -2780,7 +2728,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -2788,7 +2736,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -2796,7 +2744,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -2804,7 +2752,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -2812,7 +2760,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#default": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -2820,7 +2768,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#default": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -2828,7 +2776,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -2836,7 +2784,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -2844,7 +2792,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -2852,7 +2800,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -2860,7 +2808,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -2868,7 +2816,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -2876,7 +2824,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\public\\github.png": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\public\\github.png": {
       "id": "(app-client)/./public/github.png",
       "name": "*",
       "chunks": [
@@ -2884,7 +2832,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\public\\github.png#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\public\\github.png#": {
       "id": "(app-client)/./public/github.png",
       "name": "",
       "chunks": [
@@ -2892,7 +2840,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\public\\github.png#default": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\public\\github.png#default": {
       "id": "(app-client)/./public/github.png",
       "name": "default",
       "chunks": [
@@ -2900,7 +2848,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\public\\google.png": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\public\\google.png": {
       "id": "(app-client)/./public/google.png",
       "name": "*",
       "chunks": [
@@ -2908,7 +2856,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\public\\google.png#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\public\\google.png#": {
       "id": "(app-client)/./public/google.png",
       "name": "",
       "chunks": [
@@ -2916,7 +2864,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\public\\google.png#default": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\public\\google.png#default": {
       "id": "(app-client)/./public/google.png",
       "name": "default",
       "chunks": [
@@ -2924,7 +2872,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\components\\authButtons.tsx": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\components\\authButtons.tsx": {
       "id": "(app-client)/./components/authButtons.tsx",
       "name": "*",
       "chunks": [
@@ -2932,7 +2880,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\components\\authButtons.tsx#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\components\\authButtons.tsx#": {
       "id": "(app-client)/./components/authButtons.tsx",
       "name": "",
       "chunks": [
@@ -2940,7 +2888,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\components\\authButtons.tsx#CredentialsSignInButton": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\components\\authButtons.tsx#CredentialsSignInButton": {
       "id": "(app-client)/./components/authButtons.tsx",
       "name": "CredentialsSignInButton",
       "chunks": [
@@ -2948,7 +2896,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\components\\authButtons.tsx#GithubSignInButton": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\components\\authButtons.tsx#GithubSignInButton": {
       "id": "(app-client)/./components/authButtons.tsx",
       "name": "GithubSignInButton",
       "chunks": [
@@ -2956,7 +2904,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\components\\authButtons.tsx#GoogleSignInButton": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\components\\authButtons.tsx#GoogleSignInButton": {
       "id": "(app-client)/./components/authButtons.tsx",
       "name": "GoogleSignInButton",
       "chunks": [
@@ -2964,7 +2912,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\components\\credentialsForm.tsx": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\components\\credentialsForm.tsx": {
       "id": "(app-client)/./components/credentialsForm.tsx",
       "name": "*",
       "chunks": [
@@ -2972,7 +2920,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\components\\credentialsForm.tsx#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\components\\credentialsForm.tsx#": {
       "id": "(app-client)/./components/credentialsForm.tsx",
       "name": "",
       "chunks": [
@@ -2980,7 +2928,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\components\\credentialsForm.tsx#CredentialsForm": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\components\\credentialsForm.tsx#CredentialsForm": {
       "id": "(app-client)/./components/credentialsForm.tsx",
       "name": "CredentialsForm",
       "chunks": [
@@ -2988,7 +2936,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\image.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\image.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
@@ -2996,7 +2944,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\image.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\image.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
@@ -3004,7 +2952,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\image.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\image.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
@@ -3012,7 +2960,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\image.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\image.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
@@ -3020,7 +2968,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\image.js#default": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\client\\image.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
@@ -3028,7 +2976,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\image.js#default": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\image.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
@@ -3036,7 +2984,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
@@ -3044,7 +2992,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
@@ -3052,7 +3000,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
@@ -3060,7 +3008,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
@@ -3068,7 +3016,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#default": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#default": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
@@ -3076,7 +3024,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#default": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#default": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
@@ -3084,7 +3032,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#defaultHead": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#defaultHead": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
@@ -3092,7 +3040,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#defaultHead": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#defaultHead": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
@@ -3100,7 +3048,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#charSet": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#charSet": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "charSet",
       "chunks": [
@@ -3108,7 +3056,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#charSet": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#charSet": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "charSet",
       "chunks": [
@@ -3116,7 +3064,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#name": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#name": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "name",
       "chunks": [
@@ -3124,7 +3072,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#name": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#name": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "name",
       "chunks": [
@@ -3132,7 +3080,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#content": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#content": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "content",
       "chunks": [
@@ -3140,7 +3088,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#content": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#content": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "content",
       "chunks": [
@@ -3148,7 +3096,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#\"title\"": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#\"title\"": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"title\"",
       "chunks": [
@@ -3156,7 +3104,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"title\"": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"title\"": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"title\"",
       "chunks": [
@@ -3164,7 +3112,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#\"base\"": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#\"base\"": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"base\"",
       "chunks": [
@@ -3172,7 +3120,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"base\"": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"base\"": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"base\"",
       "chunks": [
@@ -3180,7 +3128,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#\"meta\"": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#\"meta\"": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"meta\"",
       "chunks": [
@@ -3188,7 +3136,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"meta\"": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"meta\"": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"meta\"",
       "chunks": [
@@ -3196,7 +3144,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#TODO(prateekbh@)": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#TODO(prateekbh@)": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "TODO(prateekbh@)",
       "chunks": [
@@ -3204,7 +3152,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#TODO(prateekbh@)": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#TODO(prateekbh@)": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "TODO(prateekbh@)",
       "chunks": [
@@ -3212,7 +3160,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#\"https": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#\"https": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"https",
       "chunks": [
@@ -3220,7 +3168,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"https": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"https": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"https",
       "chunks": [
@@ -3228,7 +3176,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#here": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#here": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "here",
       "chunks": [
@@ -3236,7 +3184,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#here": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#here": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "here",
       "chunks": [
@@ -3244,7 +3192,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#https": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#https": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "https",
       "chunks": [
@@ -3252,7 +3200,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#https": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#https": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "https",
       "chunks": [
@@ -3260,7 +3208,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#reduceComponentsToState": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#reduceComponentsToState": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "reduceComponentsToState",
       "chunks": [
@@ -3268,7 +3216,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#reduceComponentsToState": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#reduceComponentsToState": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "reduceComponentsToState",
       "chunks": [
@@ -3276,7 +3224,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#headManager": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#headManager": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "headManager",
       "chunks": [
@@ -3284,7 +3232,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#headManager": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#headManager": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "headManager",
       "chunks": [
@@ -3292,7 +3240,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#inAmpMode": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#inAmpMode": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "inAmpMode",
       "chunks": [
@@ -3300,7 +3248,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#inAmpMode": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#inAmpMode": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "inAmpMode",
       "chunks": [
@@ -3308,7 +3256,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#value": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\head.js#value": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "value",
       "chunks": [
@@ -3316,7 +3264,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#value": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#value": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "value",
       "chunks": [
@@ -3324,85 +3272,85 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "*",
       "chunks": [
-        "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
+        "app/timeline/page:static/chunks/app/timeline/page.js"
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "*",
       "chunks": [
-        "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
+        "app/timeline/page:static/chunks/app/timeline/page.js"
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "",
       "chunks": [
-        "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
+        "app/timeline/page:static/chunks/app/timeline/page.js"
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "",
       "chunks": [
-        "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
+        "app/timeline/page:static/chunks/app/timeline/page.js"
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js#suspense": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js#suspense": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "suspense",
       "chunks": [
-        "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
+        "app/timeline/page:static/chunks/app/timeline/page.js"
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js#suspense": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js#suspense": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "suspense",
       "chunks": [
-        "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
+        "app/timeline/page:static/chunks/app/timeline/page.js"
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js#NoSSR": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js#NoSSR": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "NoSSR",
       "chunks": [
-        "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
+        "app/timeline/page:static/chunks/app/timeline/page.js"
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js#NoSSR": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js#NoSSR": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "NoSSR",
       "chunks": [
-        "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
+        "app/timeline/page:static/chunks/app/timeline/page.js"
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\app\\globals.css#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\app\\globals.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/layout.css"
       ]
     },
-    "D:\\nextjs-auth\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/layout.css"
       ]
     },
-    "D:\\nextjs-auth\\app\\providers.tsx": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\app\\providers.tsx": {
       "id": "(app-client)/./app/providers.tsx",
       "name": "*",
       "chunks": [
@@ -3410,7 +3358,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\app\\providers.tsx#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\app\\providers.tsx#": {
       "id": "(app-client)/./app/providers.tsx",
       "name": "",
       "chunks": [
@@ -3418,7 +3366,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\app\\providers.tsx#NextAuthProvider": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\app\\providers.tsx#NextAuthProvider": {
       "id": "(app-client)/./app/providers.tsx",
       "name": "NextAuthProvider",
       "chunks": [
@@ -3426,7 +3374,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\components\\twitterNavbar.tsx": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\components\\twitterNavbar.tsx": {
       "id": "(app-client)/./components/twitterNavbar.tsx",
       "name": "*",
       "chunks": [
@@ -3434,7 +3382,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\components\\twitterNavbar.tsx#": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\components\\twitterNavbar.tsx#": {
       "id": "(app-client)/./components/twitterNavbar.tsx",
       "name": "",
       "chunks": [
@@ -3442,83 +3390,11 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "D:\\nextjs-auth\\components\\twitterNavbar.tsx#default": {
+    "D:\\Office Work\\Tasks\\nextjs-auth\\components\\twitterNavbar.tsx#default": {
       "id": "(app-client)/./components/twitterNavbar.tsx",
       "name": "default",
       "chunks": [
         "app/timeline/layout:static/chunks/app/timeline/layout.js"
-      ],
-      "async": false
-    },
-    "D:\\nextjs-auth\\components\\tweetActions.tsx": {
-      "id": "(app-client)/./components/tweetActions.tsx",
-      "name": "*",
-      "chunks": [
-        "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
-      ],
-      "async": false
-    },
-    "D:\\nextjs-auth\\components\\tweetActions.tsx#": {
-      "id": "(app-client)/./components/tweetActions.tsx",
-      "name": "",
-      "chunks": [
-        "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
-      ],
-      "async": false
-    },
-    "D:\\nextjs-auth\\components\\tweetActions.tsx#TweetActions": {
-      "id": "(app-client)/./components/tweetActions.tsx",
-      "name": "TweetActions",
-      "chunks": [
-        "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
-      ],
-      "async": false
-    },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
-      ],
-      "async": false
-    },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
-      ],
-      "async": false
-    },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
-      ],
-      "async": false
-    },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
-      ],
-      "async": false
-    },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\client\\link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
-      ],
-      "async": false
-    },
-    "D:\\nextjs-auth\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/timeline/[tweetid]/page:static/chunks/app/timeline/[tweetid]/page.js"
       ],
       "async": false
     }

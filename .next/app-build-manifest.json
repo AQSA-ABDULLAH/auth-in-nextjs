@@ -16,25 +16,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/timeline/page.js"
     ],
-    "/timeline/loading": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/timeline/loading.js"
-    ],
     "/timeline/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/timeline/layout.js"
     ],
-    "/timeline/[tweetid]/page": [
+    "/timeline/loading": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/timeline/[tweetid]/page.js"
-    ],
-    "/timeline/[tweetid]/not-found": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/timeline/[tweetid]/not-found.js"
+      "static/chunks/app/timeline/loading.js"
     ]
   }
 }
