@@ -1013,7 +1013,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "*",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/timeline/page:static/chunks/app/timeline/page.js"
         ],
         "async": false
       },
@@ -1021,7 +1021,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/timeline/page:static/chunks/app/timeline/page.js"
         ],
         "async": false
       },
@@ -1029,7 +1029,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "suspense",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/timeline/page:static/chunks/app/timeline/page.js"
         ],
         "async": false
       },
@@ -1037,7 +1037,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "NoSSR",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/timeline/page:static/chunks/app/timeline/page.js"
         ],
         "async": false
       }
@@ -1116,6 +1116,32 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/login/page:static/chunks/app/login/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/Navbar.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/Navbar.tsx",
+        "name": "*",
+        "chunks": [
+          "app/timeline/layout:static/chunks/app/timeline/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/Navbar.tsx",
+        "name": "",
+        "chunks": [
+          "app/timeline/layout:static/chunks/app/timeline/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/Navbar.tsx",
+        "name": "default",
+        "chunks": [
+          "app/timeline/layout:static/chunks/app/timeline/layout.js"
         ],
         "async": false
       }
@@ -3252,7 +3278,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/timeline/page:static/chunks/app/timeline/page.js"
       ],
       "async": false
     },
@@ -3260,7 +3286,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/timeline/page:static/chunks/app/timeline/page.js"
       ],
       "async": false
     },
@@ -3268,7 +3294,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/timeline/page:static/chunks/app/timeline/page.js"
       ],
       "async": false
     },
@@ -3276,7 +3302,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/timeline/page:static/chunks/app/timeline/page.js"
       ],
       "async": false
     },
@@ -3284,7 +3310,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "suspense",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/timeline/page:static/chunks/app/timeline/page.js"
       ],
       "async": false
     },
@@ -3292,7 +3318,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "suspense",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/timeline/page:static/chunks/app/timeline/page.js"
       ],
       "async": false
     },
@@ -3300,7 +3326,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "NoSSR",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/timeline/page:static/chunks/app/timeline/page.js"
       ],
       "async": false
     },
@@ -3308,7 +3334,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "NoSSR",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/timeline/page:static/chunks/app/timeline/page.js"
       ],
       "async": false
     },
@@ -3395,6 +3421,30 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/login/page:static/chunks/app/login/page.js"
+      ],
+      "async": false
+    },
+    "D:\\Office Work\\Tasks\\nextjs-auth\\components\\Navbar.tsx": {
+      "id": "(app-client)/./components/Navbar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/timeline/layout:static/chunks/app/timeline/layout.js"
+      ],
+      "async": false
+    },
+    "D:\\Office Work\\Tasks\\nextjs-auth\\components\\Navbar.tsx#": {
+      "id": "(app-client)/./components/Navbar.tsx",
+      "name": "",
+      "chunks": [
+        "app/timeline/layout:static/chunks/app/timeline/layout.js"
+      ],
+      "async": false
+    },
+    "D:\\Office Work\\Tasks\\nextjs-auth\\components\\Navbar.tsx#default": {
+      "id": "(app-client)/./components/Navbar.tsx",
+      "name": "default",
+      "chunks": [
+        "app/timeline/layout:static/chunks/app/timeline/layout.js"
       ],
       "async": false
     }
