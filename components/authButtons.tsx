@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 
 import githubLogo from "@/public/github.png";
 import { useRouter } from 'next/navigation';
@@ -14,7 +15,12 @@ export function GoogleSignInButton() {
       onClick={handleClick}
       className="w-full flex items-center font-semibold justify-center h-14 px-6 mt-4 text-xl  transition-colors duration-300 bg-white border-2 border-black text-black rounded-lg focus:shadow-outline hover:bg-slate-200"
     >
-      <img src='/google.png' width={20} height={20}/>
+      <Image
+        src="/google.png"
+        alt="Description of the image"
+        width={20}
+        height={20}
+      />
       <span className="ml-4">Continue with Google</span>
     </button>
   );
@@ -30,7 +36,12 @@ export function GithubSignInButton() {
       onClick={handleClick}
       className="w-full flex items-center font-semibold justify-center h-14 px-6 mt-4 text-xl transition-colors duration-300 bg-white border-2 border-black text-black rounded-lg focus:shadow-outline hover:bg-slate-200"
     >
-      <img src="/github.png" width={20} height={20}  />
+      <Image
+        src="/github.png"
+        alt="Description of the image"
+        width={20}
+        height={20}
+      />
       <span className="ml-4">Continue with Github</span>
     </button>
   );
